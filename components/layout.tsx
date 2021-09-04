@@ -4,8 +4,8 @@ import styles from "./layout.module.css";
 import utilStyles from "../styles/utils.module.css";
 import Link from "next/link";
 
-const name = "Your Name Here";
-export const siteTitle = "Your Site Name";
+const name = "Jennie Gong";
+export const siteTitle = "Yours Truly, Jennie";
 
 export default function Layout({
   children,
@@ -20,7 +20,7 @@ export default function Layout({
         <link rel="icon" href="/favicon.ico" />
         <meta
           name="description"
-          content="The personal website of a student developer currently looking for graduate roles."
+          content="The personal website of a student developer/analyst currently looking for internship roles."
         />
         <meta name="og:title" content={siteTitle} />
         <meta name="keywords" content="student, developer, nz, auckland" />
