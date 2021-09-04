@@ -11,23 +11,23 @@ export default function SocialLinks() {
       className="justify-content-center"
     >
       <ButtonGroup aria-label="Social Links" className="mb-4 mr-1">
-        <Button variant="secondary" aria-label="Call" href="tel:0800838383">
+        <Button variant="secondary" aria-label="Call" href="tel:0223281286">
           <FontAwesomeIcon icon="phone" className={utilStyles.socialIcon} />
         </Button>
-        <Button variant="secondary" aria-label="Text" href="sms:0800838383">
+        <Button variant="secondary" aria-label="Text" href="sms:0223281286">
           <FontAwesomeIcon icon="sms" className={utilStyles.socialIcon} />
         </Button>
         <Button
           variant="secondary"
           aria-label="Email"
-          href="mailto:example@gmail.com"
+          href="mailto:xinning.gong@gmail.com"
         >
           <FontAwesomeIcon icon="envelope" className={utilStyles.socialIcon} />
         </Button>
         <Button
           variant="secondary"
           aria-label="GitHub Profile"
-          href="https://github.com/example"
+          href="https://github.com/xinninggong"
         >
           <FontAwesomeIcon
             icon={["fab", "github"]}
@@ -37,7 +37,7 @@ export default function SocialLinks() {
         <Button
           variant="secondary"
           aria-label="Linked In"
-          href="https://www.linkedin.com/in/williamhgates"
+          href="https://www.linkedin.com/in/jennie-gong/"
         >
           <FontAwesomeIcon
             icon={["fab", "linkedin"]}
