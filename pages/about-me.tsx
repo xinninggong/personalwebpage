@@ -30,11 +30,11 @@ export default function AboutMe() {
               </Card.Title>
               <Card.Text className={utilStyles.cardText}>
                 Data is an ever growing epidemic with the potential of infinite knowledge. 
-                I have learnt to wrangle and analyse data using R. 
+                I learnt to wrangle and analyse data using R. 
                 I especially enjoyed data mining and collecting data from websites to dissect and find patterns and trends. 
                 I also enjoyed using ggplot to present my findings through data visualisation. 
                 I have worked with databases using SQLite, DB browser, MySQL, Microsoft SQL Server and data modelling through ERD. 
-                I am currently learning about amazon cloud services and the endless data amazon is able to store. 
+                Currently, I am learning about amazon cloud services and the endless data amazon is able to store. 
                 
               </Card.Text>
             </Card.Body>
@@ -93,6 +93,27 @@ export default function AboutMe() {
               </Card.Text>
             </Card.Body>
           </Card>
+          
+          <Card bg="light">
+            <Card.Body>
+              <Card.Title className="font-weight-bold">
+                <FontAwesomeIcon
+                  icon="sync-alt"
+                  className={utilStyles.rightSpacedIcon}
+                  color="LightBlue"
+                />
+                Continuous improvement
+              </Card.Title>
+              <Card.Text className={utilStyles.cardText}>
+                "Continuous improvement is better than delayed perfection". 
+                In operations management, I learnt about the lean management and decided to adopt this philosophy in my everyday life. 
+                To keep building and improving myself, I am actively attending hackathons and workshops. 
+                I also joined the Summer of Tech program and am currently a mentee at Cisco.
+                Through Cisco, I was able to attend many personal development workshops such as building your personal brand, identifying strengths and leadership. 
+                
+              </Card.Text>
+            </Card.Body>
+          </Card>
           <Card bg="light">
             <Card.Body>
               <Card.Title className="font-weight-bold">
@@ -116,19 +137,18 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title className="font-weight-bold">
                 <FontAwesomeIcon
-                  icon="sync-alt"
+                  icon="user-alt"
                   className={utilStyles.rightSpacedIcon}
-                  color="LightBlue"
+                  color="BurlyWood"
                 />
-                Continuous improvement
+                Me, Myself and I
               </Card.Title>
               <Card.Text className={utilStyles.cardText}>
-                "Continuous improvement is better than delayed perfection". 
-                In operations management, I learnt about the lean management and decided to adopt this philosophy in my everyday life. 
-                To keep building and improving myself, I have been actively attending hackathons and workshops. 
-                I also joined the Summer of Tech program and am currently a mentee at Cisco.
-                Through Cisco, I was able to attend many personal development workshops such as building your personal brand, identifying strengths and leadership. 
-                
+                I am passionate about helping others and feel pride and joy from watching those who I have helped succeed. 
+                This lead me to become a Teaching Assistant for the Department of Statistics at UoA. 
+                I have found that I am able to grasp complex concepts quickly and explain these concepts simply. 
+
+
               </Card.Text>
             </Card.Body>
           </Card>
@@ -140,13 +160,15 @@ export default function AboutMe() {
                   className={utilStyles.rightSpacedIcon}
                   color="BurlyWood"
                 />
-                Me, myself and I
+                New Year, New Me
               </Card.Title>
               <Card.Text className={utilStyles.cardText}>
                 This year my goal was to try something new and really put myself out there.
                 Hence, I decided to join the Auckland Student Pool Association. 
-                It was interesting to meet different people and learn about their backgrounds while playing pool. 
+                It was fascinating to meet different people and learn about their backgrounds while playing pool. 
                 I have to admit that while my pool skills have been gradually improving, luck is usually what helps me to win. 
+                
+                
 
               </Card.Text>
             </Card.Body>
