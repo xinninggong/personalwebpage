@@ -57,6 +57,7 @@ export default function AboutMe() {
               </Card.Text>
             </Card.Body>
           </Card>
+
           <Card bg="light">
             <Card.Body>
               <Card.Title className="font-weight-bold">
@@ -74,6 +75,7 @@ export default function AboutMe() {
               </Card.Text>
             </Card.Body>
           </Card>
+                  
           <Card bg="light">
             <Card.Body>
               <Card.Title className="font-weight-bold">
@@ -93,6 +95,30 @@ export default function AboutMe() {
               </Card.Text>
             </Card.Body>
           </Card>
+          
+         
+          <Card bg="light">
+            <Card.Body>
+              <Card.Title className="font-weight-bold">
+                <FontAwesomeIcon
+                  icon="code"
+                  className={utilStyles.rightSpacedIcon}
+                  color="PaleGoldenRod"
+                />
+                Coding Journey
+              </Card.Title>
+              <Card.Text className={utilStyles.cardText}>
+                Despite growing up in the small city of Palmerston North, I had the privilege of studying Computer Science since high school. 
+                I have learnt python and front end web development for 5 years now. 
+                At university, I am currently learning java programming to develop software applications through object oriented design principles.
+                Through attending hackathons and workshops, I found that I was able to pick up coding quickly. Here, I was able to experiment with chrome extensions and typescript for React. 
+       
+              </Card.Text>
+            </Card.Body>
+          </Card>
+          
+          
+  
           
           <Card bg="light">
             <Card.Body>
@@ -118,25 +144,6 @@ export default function AboutMe() {
             <Card.Body>
               <Card.Title className="font-weight-bold">
                 <FontAwesomeIcon
-                  icon="code"
-                  className={utilStyles.rightSpacedIcon}
-                  color="PaleGoldenRod"
-                />
-                Coding Journey
-              </Card.Title>
-              <Card.Text className={utilStyles.cardText}>
-                Despite growing up in the small city of Palmerston North, I had the privilege of studying Computer Science since high school. 
-                I have learnt python and front end web development for 5 years now. 
-                At university, I am currently learning java programming to develop software applications through object oriented design principles.
-                Through attending hackathons and workshops, I found that I was able to pick up coding quickly. Here, I was able to experiment with chrome extensions and typescript for React. 
-       
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card bg="light">
-            <Card.Body>
-              <Card.Title className="font-weight-bold">
-                <FontAwesomeIcon
                   icon="user-alt"
                   className={utilStyles.rightSpacedIcon}
                   color="BurlyWood"
@@ -148,27 +155,6 @@ export default function AboutMe() {
                 This lead me to become a Teaching Assistant for the Department of Statistics at UoA. 
                 I have found that I am able to grasp complex concepts quickly and explain these concepts simply. 
 
-
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card bg="light">
-            <Card.Body>
-              <Card.Title className="font-weight-bold">
-                <FontAwesomeIcon
-                  icon="user-alt"
-                  className={utilStyles.rightSpacedIcon}
-                  color="BurlyWood"
-                />
-                New Year, New Me
-              </Card.Title>
-              <Card.Text className={utilStyles.cardText}>
-                This year my goal was to try something new and really put myself out there.
-                Hence, I decided to join the Auckland Student Pool Association. 
-                It was fascinating to meet different people and learn about their backgrounds while playing pool. 
-                I have to admit that while my pool skills have been gradually improving, luck is usually what helps me to win. 
-                
-                
 
               </Card.Text>
             </Card.Body>

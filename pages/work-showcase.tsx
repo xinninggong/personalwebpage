@@ -22,24 +22,26 @@ export default function WorkShowcase() {
           <Row>
             <Col md>
               <Card className="bg-light text-left mb-4">
-                <Card.Img variant="top" src="/images/template.jpg" />
+                <Card.Img variant="top" src="/images/procrastinya.png" />
                 <Card.Body>
-                  <Card.Title>Example work</Card.Title>
+                  <Card.Title>Procrastinya</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
-                    This an example of some work that I did that I think others
-                    would like to look at. I worked really hard on this and here
-                    is some great info. It was cool, and I had fun.
+                    At the WDCC x SESA Hackathon the theme for this year was procrastination. 
+                    To aid you in openly procrastinating in front of your boss, my team decided to create a webpage that looks very similar to Visual Studio Code. 
+                    If you look closely at the code, you will notice that it is actually populated with reddit posts. 
+                    It was my first time building a chrome extension and using typescript. 
+                    I am very proud of my group for working hard together and achieving the best design award. 
                   </Card.Text>
                   <Button
                     variant="outline-dark"
                     className="mb-1"
-                    href="https://example.com"
+                    href="https://github.com/Nyaaaaaaaaaaa"
                   >
                     <FontAwesomeIcon
                       icon={["fab", "github"]}
                       className={utilStyles.rightSpacedIcon}
                     />
-                    View on GitHub
+                    Procrastinya
                   </Button>
                 </Card.Body>
               </Card>
@@ -66,6 +68,8 @@ export default function WorkShowcase() {
                 </Card.Body>
               </Card>
             </Col>
+            </Row>
+            <Row>
             <Col md>
               <Card className="bg-light text-left mb-4">
                 <Card.Img variant="top" src="/images/template.jpg" />
@@ -88,6 +92,29 @@ export default function WorkShowcase() {
                 </Card.Body>
               </Card>
             </Col>
+            <Col md>
+              <Card className="bg-light text-left mb-4">
+                <Card.Img variant="top" src="/images/template.jpg" />
+                <Card.Body>
+                  <Card.Title>SoT Dev Demo</Card.Title>
+                  <Card.Text className={utilStyles.cardText}>
+                    This is an SoT dev demo project. Hi everyone.
+                  </Card.Text>
+                  <Button
+                    variant="outline-dark"
+                    className="mb-1"
+                    href="https://trademe.co.nz"
+                  >
+                    <FontAwesomeIcon
+                      icon={["fab", "github"]}
+                      className={utilStyles.rightSpacedIcon}
+                    />
+                    Aorthi is awesome
+                  </Button>
+                </Card.Body>
+              </Card>
+            </Col>
+            
           </Row>
         </Container>
       </section>

@@ -23,9 +23,9 @@ export default function Layout({
           content="The personal website of a student developer/analyst currently looking for internship roles."
         />
         <meta name="og:title" content={siteTitle} />
-        <meta name="keywords" content="student, developer, nz, auckland" />
+        <meta name="keywords" content="student, analyst, intern, developer, nz, auckland" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-        <meta name="author" content="Your Name Here" />
+        <meta name="author" content="Jennie Gong" />
         <meta name="robots" content="index, follow" />
         <meta name="revisit-after" content="1 days" />
       </Head>
