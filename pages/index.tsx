@@ -39,7 +39,7 @@ export default function Home() {
           It is not like accounting where eventually everything should eventually balance. 
           It is not like law where there's ultimately only one outcome. 
           But I enjoy a good challenge and every data is different. 
-          The challenging elements of data science offers opportunity to continuously improve and expand skills and knowledge which I believe is important. 
+          The challenging elements of data science offers opportunity to continuously improve, share and expand skills and knowledge which I believe is important. 
         </p> 
 
       </section>
