@@ -110,6 +110,7 @@ export default function WorkShowcase() {
                     My research was based on the 2018 Citi Bike trip data in New York City. 
                     I performed web scraping to retrieve information from their website. 
                     I polished and tidied the data to be ready for analysis and produced visualisations using ggplot2. 
+                    We were tasked to find new relationships that weren't already used in the previous reports so it was very difficult to find anything new and interesting. 
 
 
                   </Card.Text>
