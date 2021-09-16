@@ -52,7 +52,7 @@ export default function WorkShowcase() {
                 <Card.Body>
                   <Card.Title>Statistical Modelling</Card.Title>
                   <Card.Text className={utilStyles.cardText}>
-                    Last semester, I completed a statistical modelling paper aimed to broaden understanding of generalised linear modles and related methods. 
+                    Last semester, I completed a statistical modelling paper aimed to broaden understanding of generalised linear models and related methods. 
                     My research was on the effect of insulin on laboratory mice and predicting oxygen consumption in a person. 
                     I used simulation-based procedures, such as bootstrapping and cross-validation, 
                     to provide robust inference, investigate consequences of assumption violations, and to solve goodness-of-fit and model-selection problems.
